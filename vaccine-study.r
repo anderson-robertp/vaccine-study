@@ -178,6 +178,6 @@ mortality_model <- lm(vaccination_rate ~ child_mortality_rate,
                       data = vaccine_mortality_2023_clean)
 print(" ")
 print("Linear Model Summary for Child Mortality Rate vs Vaccination Rate:")
-summary(mortality_model)
+print(summary(mortality_model))
 
 # End of Script
